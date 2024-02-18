@@ -17,4 +17,12 @@ This computer is NOT TURING COMPLETE.It has only 5 instructions(LDA,ADD,SUB,OUT,
 for more info: Digital Computer Electronics by Albert Paul Malvino & Jerald A. Brown.                                                                                                
 https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU
                
-
+METHOD OF COMPILATION:
+. First go to ModelSim and Create a new project by selecting the cloned repository.
+. Then Click Add existing files in the project and select all the files from the menu box.
+. Select all and compile them.
+. Simulate them through tb_main which is inside the file tb_topmod.v 
+. Simulation is done by selecting simulate tab and then start simulation.
+. Then select work and inside it tb_main
+. When new window open press Ctrl+ W and then again go simulate tab.
+. In simulate tab go to Run and then Run all you will start seeing lines on right side in black window.
